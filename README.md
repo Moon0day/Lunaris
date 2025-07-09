@@ -41,31 +41,16 @@
 
 ```bash
 git clone https://github.com/moonsec/lunaris.git
-cd lunaris
+cd Lunaris
 
 🛠️ Run Setup Script
 
-Before compiling, run the setup script:
+ python3 lunarissetup.py
+this will compile the c++ code
 
-python3 lunarissetup.py
-
-This will:
-
-    Install Python packages listed in requirements.txt
-
-    Configure permissions on files in src/
-
-    Prepare all dependencies
-
-    💡 You can also manually run:
-
-pip3 install -r requirements.txt
-
-🚀 Usage Guide
-🔧 Compile C++ Source
-
-g++ main.cpp -o lunaris
-
+and pip requirements are in the txt requirements.txt
+run
+ "pip install -r requirements.txt"
 🔮 Run Lunaris
 
 ./main
