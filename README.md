@@ -150,7 +150,7 @@ To contribute:
 👤 Author
 
 MoonSec (MS)
-Ethical Hacker & C++ Developer
+Ethical Hacker & Developer @Lunaris
 Contact: github.com/Moon0day
 📄 License
 
