@@ -9,7 +9,6 @@
 
 void clear_screen() {
     system("clear");
-    system("cls");
 }
 
 void banner() {
