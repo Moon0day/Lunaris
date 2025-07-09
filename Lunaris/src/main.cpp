@@ -9,6 +9,7 @@
 
 void clear_screen() {
     system("clear");
+    system("cls");
 }
 
 void banner() {
@@ -24,6 +25,7 @@ void banner() {
     ░  ░   ░              ░       ░  ░   ░      ░        ░  
 
         Lunaris — toolkit made by MoonSec (MS)
+        link: https://github.com/Moon0day/Lunaris
     )" << reset << std::endl;
 }
 
@@ -76,8 +78,13 @@ void menu() {
         clear_screen();
         banner();
 
-        std::cout << red << R"(
-
+        std::cout << blue << R"(
+        [1] sqlmap injection
+        [2] directory bruteforce (inbuilt wordlist)
+        [3] html cloner
+        [4] terms of service
+        [5] exit
+        [6] update tool (soon)
 )" << reset;
 
         std::cout << "\n[+]choice: ";
