@@ -40,7 +40,7 @@
 ### 🔻 Clone the Repository
 
 ```bash
-git clone https://github.com/moonsec/lunaris.git
+git clone https://github.com/Moon0day/Lunaris
 cd Lunaris
 
 🛠️ Run Setup Script
